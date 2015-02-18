@@ -1,0 +1,6 @@
+etpweb_souffrance_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EtpWebSouffranceBundle:Default:index }
+etpweb_souffrance_accueil:
+    path:     /souffrances
+    defaults: { _controller: EtpWebSouffranceBundle:Default:accueil }

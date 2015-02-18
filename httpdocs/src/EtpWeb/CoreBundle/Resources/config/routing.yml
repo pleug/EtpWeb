@@ -1,0 +1,6 @@
+etpweb_core_home:
+    path:     /hello/{name}
+    defaults: { _controller: EtpWebCoreBundle:Default:index }
+etpweb_core_accueil:
+    path:     /
+    defaults: { _controller: EtpWebCoreBundle:Default:accueil }

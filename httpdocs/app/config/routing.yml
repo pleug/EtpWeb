@@ -1,0 +1,23 @@
+etp_web_personnel:
+    resource: "@EtpWebPersonnelBundle/Resources/config/routing.yml"
+    prefix:   /
+
+etp_web_planning:
+    resource: "@EtpWebPlanningBundle/Resources/config/routing.yml"
+    prefix:   /
+
+etp_web_vehicule:
+    resource: "@EtpWebVehiculeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+etp_web_souffrance:
+    resource: "@EtpWebSouffranceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+etp_web_core:
+    resource: "@EtpWebCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation

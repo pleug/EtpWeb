@@ -1,0 +1,9 @@
+/httpdocs/web/bundles/
+/httpdocs/app/bootstrap*
+/httpdocs/app/cache/*
+/httpdocs/app/logs/*
+/httpdocs/vendor/
+/httpdocs/app/config/parameters.yml
+/conf/*
+/error_docs/*
+/logs/*

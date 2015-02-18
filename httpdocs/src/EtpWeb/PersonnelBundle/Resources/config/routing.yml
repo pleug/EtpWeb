@@ -1,0 +1,6 @@
+etpweb_personnel_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EtpWebPersonnelBundle:Default:index }
+etpweb_personnel_accueil:
+    path:     /personnel
+    defaults: { _controller: EtpWebPersonnelBundle:Default:accueil }

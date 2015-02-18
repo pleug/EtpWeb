@@ -1,0 +1,10 @@
+{# src/EtpWeb/CoreBundle/Resources/views/Default/menu.html.twig #}
+
+{# Ce template n'hérite de personne,
+   tout comme le template inclus avec {{ include() }}. #}
+
+  {% for menu in listMenus %}
+    <li>
+      <a href="{{ path(menu.chemin) }}"><i class="{{ menu.classe }}"></i> {{ menu.title }}</a>
+    </li>
+  {% endfor %}

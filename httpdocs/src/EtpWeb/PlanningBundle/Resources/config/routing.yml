@@ -1,0 +1,6 @@
+etpweb_planning_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EtpWebPlanningBundle:Default:index }
+etpweb_planning_accueil:
+    path:     /planning
+    defaults: { _controller: EtpWebPlanningBundle:Default:accueil }

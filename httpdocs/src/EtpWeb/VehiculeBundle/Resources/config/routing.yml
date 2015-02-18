@@ -1,0 +1,6 @@
+etpweb_vehicule_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EtpWebVehiculeBundle:Default:index }
+etpweb_vehicule_accueil:
+    path:     /vehicules
+    defaults: { _controller: EtpWebVehiculeBundle:Default:accueil }
