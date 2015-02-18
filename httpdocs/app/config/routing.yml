@@ -21,3 +21,13 @@ etp_web_core:
 app:
     resource: @AppBundle/Controller/
     type:     annotation
+
+connexion:
+    pattern: /connexion
+    defaults: { _controller:EtpWebUserBundle:Security:connexion }
+
+login_check:
+    pattern: /login_check
+
+logout:
+    pattern: /logout

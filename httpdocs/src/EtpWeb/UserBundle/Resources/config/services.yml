@@ -1,0 +1,4 @@
+services:
+#    etp_web_user.example:
+#        class: EtpWeb\UserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

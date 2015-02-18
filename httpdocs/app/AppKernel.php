@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new EtpWeb\VehiculeBundle\EtpWebVehiculeBundle(),
             new EtpWeb\PlanningBundle\EtpWebPlanningBundle(),
             new EtpWeb\PersonnelBundle\EtpWebPersonnelBundle(),
+            new EtpWeb\UserBundle\EtpWebUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
