@@ -1,0 +1,32 @@
+<?php
+// src/EtpWeb/CoreBundle/Entity/Agence.php
+namespace EtpWeb\CoreBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * EtpWeb\UserBundle\Entity\User
+ *
+ * @ORM\Table(name="EtpWeb_agences")
+ * @ORM\Entity(repositoryClass="EtpWeb\CoreBundle\Entity\AgenceRepository")
+ */
+class Agence 
+{
+    /**
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @ORM\Column(type="string", length=25, unique=true)
+     */
+    private $name;
+
+    /**
+     * @ORM\Column(type="string", length=60, unique=true)
+     */
+    private $email;
+    
+}
