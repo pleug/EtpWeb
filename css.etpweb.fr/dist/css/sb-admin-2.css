@@ -211,6 +211,8 @@ body {
 }
 
 .login-panel {
+    max-width: 600px;
+    text-align: center;
     margin-top: 25%;
 }
 
@@ -351,4 +353,11 @@ table.dataTable thead .sorting:after {
 
 .panel-yellow a:hover {
     color: #df8a13;
+}
+
+#footer p
+{
+    font: 12px 'Lucida Sans Unicode', 'Trebuchet MS', Arial, Helvetica;    
+    margin: 0;
+    text-align: center;
 }
